@@ -1,0 +1,64 @@
+body{
+    background: #fff;
+}
+table{
+
+}
+header{
+    background: #296fa7;
+    color: #fff;
+    padding: 0;
+    margin-bottom: 50px;
+}
+header h1{
+    margin: 0;
+    padding: 10px 0;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1f2a47;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.latest-number{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.latest-number span {
+    display: inline-block;
+    color: #fff;
+    padding: 15px;
+    margin:5px;
+    border-radius: 40px;
+    background: #209869;
+    font-size: 40px;
+}
+
+.luck-number {
+    background: #f4f4f6;
+    overflow: hidden;
+    margin-bottom: 25px;
+    padding: 20px 6px 5px;
+    text-align: center;
+}
+.luck-number .time{
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 32px;
+    color: #7f818f;
+    font-size: 12px;
+}
+.luck-number .number {
+    display: inline-block;
+    margin: 6px;
+    color: #fff;
+    background-color: #296fa7;
+    border-radius: 58px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1;
+}

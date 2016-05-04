@@ -1,0 +1,6 @@
+*.nja
+*~
+*.db
+venv/
+bkp.py
+

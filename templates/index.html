@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Número para apostar na mega-sena - Numero da sorte!</title>
+
+
+    <link href="/static/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <header class="row">
+        <div class="container">
+            <h1>numerodasorte.com.br</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2>Aposte esse número:</h2>
+            <h3 class="latest-number">
+                {% autoescape false %}{{ latest_number }}{% endautoescape %}</h3>
+            <div>
+                {% autoescape false %}
+                {{ data_table }}
+                {% endautoescape %}
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/static/components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
